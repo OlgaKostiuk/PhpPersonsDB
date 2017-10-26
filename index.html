@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="reader.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<table>
+		<thead>
+			<th>Id</th>
+			<th>Fn</th>
+			<th>Ln</th>
+			<th>Age</th>
+		</thead>
+		<tbody id="tbody">
+			
+		</tbody>
+	</table> <br>
+	<input type="text" id="id">
+	<input type="text" id="fn">
+	<input type="text" id="ln">
+	<input type="text" id="age"> <br>
+	<button onclick="create()">Create</button>
+	<button onclick="read()">Read</button>
+	<button onclick="update()">Update</button>
+	<button onclick="del()">Delete</button> <br>
+	<select id="format">
+		<option value="html">HTML</option>
+		<option value="xml">XML</option>
+		<option value="json">Json</option>
+	</select>
+	<select id="db">
+		<option value="mysql">MySql</option>
+	</select>
+</body>
+</html>
